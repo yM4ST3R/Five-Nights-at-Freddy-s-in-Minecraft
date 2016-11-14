@@ -1792,17 +1792,17 @@ public class GameSession {
      */
     private void makeItems() {
 
-        flashlightOff = new ItemStack(Material.IRON_INGOT);
+        flashlightOff = new ItemStack(Material.TORCH);
         ItemMeta meta = flashlightOff.getItemMeta();
         meta.setDisplayName(Messages.get("ItemName_FlashLight"));
         flashlightOff.setItemMeta(meta);
 
-        flashlightOn = new ItemStack(Material.GOLD_INGOT);
+        flashlightOn = new ItemStack(Material.REDSTONE_TORCH);
         meta = flashlightOn.getItemMeta();
         meta.setDisplayName(Messages.get("ItemName_FlashLight"));
         flashlightOn.setItemMeta(meta);
 
-        radar = new ItemStack(Material.REDSTONE);
+        radar = new ItemStack(Material.COMPASS);
         meta = radar.getItemMeta();
         meta.setDisplayName(Messages.get("ItemName_Rader"));
         radar.setItemMeta(meta);
